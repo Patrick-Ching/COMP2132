@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+	<!-- author: Patrick Ching A00897415	-->
+<head>
+	<title>Term Project | COMP 2132</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Phudu&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Phudu&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../css/style.css">
+	<script src="../scripts/data.js" defer="defer"></script>
+	<script src="../scripts/jquery-3.7.0.min.js" defer="defer"></script>
+	<script src="../scripts/project.js" defer="defer"></script>
+</head>
+	<body>
+		<header>
+			<h1>Term Project</h1>
+		</header>
+		<main class="wrapper">
+			<div id="popup">
+				<button id="close-pop-up">&#x2715;</button>
+				<h2>Hello, User</h2>
+				<p>Instructions:</p>
+				<p>To rotate the view of the bike click on the 'Start' animation button. Stop the animation by clicking the 'Stop' button.</p>
+			</div>					
+			<section id="topSection">
+				<div id="topLeftSection">
+					<img id="hangman" src="../images/0.jpg" alt="Step 0" />
+					<div id="guessSection">
+						<h2>Guesses</h2>
+						<ul id="guessList"></ul>
+					</div>
+				</div>
+				<div id="topRightSection">
+					<div id="message">
+						<h2>Messages</h2>
+						<p id="messageText"></p>
+					</div>
+					<div id="Entry">
+						<h2>Entry</h2>
+						<h3 id="hint"></h3>
+						<label for="inputChar">Enter a single character:</label>
+						<input type="text" id="inputChar" autofocus>
+						<button id="submitGuess">Submit Guess</button>
+						<button id="restartGame">Start a New Game</button>
+					</div>
+				</div>
+			</section>
+			<section id="answerSection">
+
+			</section>
+		</main>			
+	</body>
+</html>
